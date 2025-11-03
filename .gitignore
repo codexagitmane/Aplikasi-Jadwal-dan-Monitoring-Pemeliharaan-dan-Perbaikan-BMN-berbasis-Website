@@ -1,0 +1,11 @@
+/vendor/
+/writable/*
+!/writable/.gitkeep
+/public/uploads/*
+!/public/uploads/.gitkeep
+.env
+/build/
+/node_modules/
+/.idea/
+/.vscode/
+phpunit.xml

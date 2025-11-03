@@ -1,0 +1,54 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+.gradient-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.gradient-primary { background: linear-gradient(135deg, #3f51b5 0%, #2196f3 100%); }
+.gradient-success { background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%); }
+.gradient-warning { background: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%); }
+.gradient-info    { background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%); }
+
+.table thead th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.fc-event.event-maintenance {
+    background-color: rgba(63, 81, 181, 0.85);
+    border-color: rgba(63, 81, 181, 0.85);
+}
+
+.fc-event.event-repair {
+    background-color: rgba(242, 153, 74, 0.85);
+    border-color: rgba(242, 153, 74, 0.85);
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn {
+    border-radius: .75rem;
+}
+
+.table > :not(caption) > * > * {
+    padding: 1rem 1.25rem;
+}
+
+.alert {
+    border-radius: 1rem;
+}
